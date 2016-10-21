@@ -1,0 +1,78 @@
+.settings{
+    color:rgb(33,33,33);
+    padding: 20rpx;
+}
+.setting-item{
+    margin-bottom: 60rpx;
+}
+.setting-item-content{
+    font-size: 30rpx;
+}
+.setting-item-title,.unit-left-desc{
+    font-size: 26rpx;
+}
+.unit-left-desc{
+    color: rgb(155,155,155)
+}
+.setting-item-content-unit{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content:space-between;
+}
+.setting-item-content-unit-left{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+.setting-item-content-unit-right{
+    align-self: center;
+}
+.setting-item-content-unit,.setting-item-title{
+    padding-left: 60rpx;
+    padding-right: 60rpx;
+}
+.setting-item .setting-item-title text{
+    color: rgb(0,150,136)
+}
+.setting-item .setting-item-title,.setting-item .setting-item-content-unit{
+    margin-bottom: 30rpx;
+    margin-top: 30rpx;
+}
+
+/*checkbox样式*/
+#autodown,#nopicmode,#bigsize,#pushMessage,#evaluateShare,#nightShow{
+    display: none; 
+}
+#nochecked{
+    width:26rpx;
+    height:26rpx;
+    border-radius:4rpx;
+    border:4rpx solid rgb(122,122,122);
+}
+#haschecked{
+    width:34rpx;
+    height:34rpx;
+    border-radius:4rpx;
+    background-color: rgb(0,150,136);
+    position: relative;
+}
+#haschecked:after {
+    content: '\00a0';
+    display: inline-block;
+    border: 4rpx solid #fff;
+    border-top-width: 0;
+    border-right-width: 0; 
+    width: 18rpx;
+    height: 10rpx;
+    -webkit-transform: rotate(-50deg);
+    position: absolute;
+    top:6rpx;
+    left:6rpx;
+}

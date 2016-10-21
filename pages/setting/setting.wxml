@@ -1,0 +1,95 @@
+<view class="settings">
+	<view class="setting-item">
+		<view class="setting-item-title">
+			<text>常规</text>
+		</view>
+		<view class="setting-item-content">
+			<view class="setting-item-content-unit">
+				<view class="setting-item-content-unit-left">
+					<text class="unit-left-title">自动离线下载</text>
+					<text class="unit-left-desc">仅Wi-Fi下可用，自动下载最近内容</text>
+				</view>
+				<label id="{{checkboxStyleFirst}}" data-id="first" for="autodown" bindtap="checkboxEvent" class="setting-item-content-unit-right">
+					<checkbox id="autodown"/>
+				</label>
+			</view>
+			<progress percent="100" color="rgba(224,224,224,.8)" stroke-width='1'/>
+			<view class="setting-item-content-unit">
+				<view class="setting-item-content-unit-left">
+					<text class="unit-left-title">无图模式</text>
+					<text class="unit-left-desc">2G/3G网络下不下载图片</text>
+				</view>
+				<label id="{{checkboxStyleSecond}}" data-id="second" for="nopicmode" bindtap="checkboxEvent" class="setting-item-content-unit-right">
+					<checkbox id="nopicmode"/>
+				</label>
+			</view>
+			<progress percent="100" color="rgba(224,224,224,.8)" stroke-width='1'/>
+			<view class="setting-item-content-unit">
+				<view class="setting-item-content-unit-left">
+					<text class="unit-left-title">大字号</text>
+				</view>
+				<label id="{{checkboxStyleThird}}" data-id="third" for="bigsize" bindtap="checkboxEvent" class="setting-item-content-unit-right">
+					<checkbox id="bigsize"/>
+				</label>
+			</view>
+			<progress percent="100" color="rgba(224,224,224,.8)" stroke-width='1'/>
+			<view class="setting-item-content-unit">
+				<view class="setting-item-content-unit-left">
+					<text class="unit-left-title">夜间模式</text>
+				</view>
+				<label id="{{checkboxStyleTheme}}" data-id="nightTheme" for="nightShow" bindtap="checkboxEvent" class="setting-item-content-unit-right">
+					<checkbox id="nightShow"/>
+				</label>
+			</view>
+		</view>
+	</view>
+	<view class="setting-item">
+		<view class="setting-item-title">
+			<text>其他</text>
+		</view>
+		<view class="setting-item-content">
+			<view class="setting-item-content-unit">
+				<view class="setting-item-content-unit-left">
+					<text class="unit-left-title">推送消息</text>
+				</view>
+				<label id="{{checkboxStyleFourth}}" data-id="fourth" for="pushMessage" bindtap="checkboxEvent" class="setting-item-content-unit-right">
+					<checkbox id="pushMessage"/>
+				</label>
+			</view>
+			<progress percent="100" color="rgba(224,224,224,.8)" stroke-width='1'/>
+			<view class="setting-item-content-unit">
+				<view class="setting-item-content-unit-left">
+					<text class="unit-left-title">点评分享到微博</text>
+				</view>
+				<label id="{{checkboxStyleFifth}}" data-id="fifth" for="evaluateShare" bindtap="checkboxEvent" class="setting-item-content-unit-right">
+					<checkbox id="evaluateShare"/>
+				</label>
+			</view>
+			<progress percent="100" color="rgba(224,224,224,.8)" stroke-width='1'/>
+			<view class="setting-item-content-unit">
+				<view class="setting-item-content-unit-left">
+					<text class="unit-left-title">清除缓存</text>
+				</view>
+			</view>
+			<progress percent="100" color="rgba(224,224,224,.8)" stroke-width='1'/>
+			<view class="setting-item-content-unit">
+				<view class="setting-item-content-unit-left">
+					<text class="unit-left-title">检查更新</text>
+					<text class="unit-left-desc">版本：2.6.0(774)</text>
+				</view>
+			</view>
+		</view>
+	</view>
+	<view class="setting-item">
+		<view class="setting-item-title">
+			<text>反馈</text>
+		</view>
+		<view class="setting-item-content">
+			<view class="setting-item-content-unit">
+				<view class="setting-item-content-unit-left">
+					<text class="unit-left-title">意见反馈</text>
+				</view>
+			</view>
+		</view>
+	</view>
+</view>
